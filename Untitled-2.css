@@ -1,0 +1,59 @@
+/* styles.css */
+.red-bar {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center; /* Center the text */
+}
+
+.red-bar-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.post-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px; /* Add some spacing around the posts */
+}
+
+.post {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    flex-basis: calc(50% - 20px);
+}
+
+.username, .date {
+    font-size: small;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* styles.css */
+.post-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.post {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    flex-basis: calc(50% - 20px);
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.username, .date {
+    font-size: small;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
